@@ -104,6 +104,7 @@ export default function CardSettings(props) {
                     type="text"
                     className="bg-blueGray-200  border-0 px-3 py-3 placeholder-blueGray-300 text-blueGray-600  rounded text-sm shadow focus:outline-none focus:ring w-full ease-linear transition-all duration-150"
                     value={orderNo}
+                    disabled
                     onChange={trackingOrderHandler}
                   />
                 </div>

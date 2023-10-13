@@ -29,7 +29,7 @@ export default function CardTable({ color, shipmentData }) {
 
   const updatedDetailsHandler = (details) => {
     const updatedShipment = shipment.map((ship) => {
-      if (ship.trackingNo === details.trackingNo) {
+      if (ship.orderNo === details.orderNo) {
         return { ...ship, ...details };
       }
       return ship;
